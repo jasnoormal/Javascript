@@ -1,0 +1,74 @@
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  background(245, 144, 66); //orange background
+}
+
+function draw() {
+  
+//web
+fill(153, 145, 145);
+noStroke();
+rect(305, 2, 10, 241);
+
+//face
+fill(0, 0, 0); 
+ellipse(310, 230, 95); 
+
+//eyes
+fill(255, 255, 255); 
+ellipse(291, 215, 17); 
+ellipse(326, 215, 17); 
+
+//mouth
+fill(255, 255, 255);
+arc(310, 253, 50, 20, 0, PI);
+
+//leg 1
+print(mouseX, mouseY);
+strokeWeight(9);
+stroke(0, 0, 0);
+line(350, 205, 475, 111);
+line(475, 111, 566, 199);
+  
+//leg 2
+strokeWeight(9);
+stroke(0, 0, 0);
+line(355, 232, 461, 187);
+line(461, 187, 582, 291);
+
+//leg 3
+strokeWeight(9);
+stroke(0, 0, 0);
+line(346, 257, 443, 272);
+line(443, 272, 541, 400);
+
+//leg 4
+strokeWeight(9);
+stroke(0, 0, 0);
+line(328, 272, 412, 314);
+line(412, 314, 366, 388);
+
+//leg 5
+strokeWeight(9);
+stroke(0, 0, 0);
+line(275, 205, 161, 111);
+line(161, 111, 87, 199);
+  
+//leg 6
+strokeWeight(9);
+stroke(0, 0, 0);
+line(262, 230, 166, 187);
+line(166, 187, 76, 291);
+  
+//leg 7
+strokeWeight(9);
+stroke(0, 0, 0);
+line(267, 251, 161, 272);
+line(161, 272, 87, 400);
+  
+//leg 8
+strokeWeight(9);
+stroke(0, 0, 0);
+line(284, 270, 206, 314);
+line(206, 314, 262, 388);
+}
